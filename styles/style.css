@@ -43,10 +43,7 @@ body {
   column-gap: 20px;
   list-style-type: none;
   padding: 0;
-  margin-top: 8px;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin: 8px 0 0;
 }
 
 .nav__link {
@@ -68,10 +65,7 @@ body {
   line-height: 76px;
   font-weight: 500;
   color: #000000;
-  margin-top: 128px;
-  margin-right: 0;
-  margin-bottom: 32px;
-  margin-left: 0;
+  margin: 128px 0 32px 0;
 }
 
 .header__description {
@@ -192,4 +186,138 @@ body {
 section {
   padding: 60px 20px;
   box-sizing: border-box;
+}
+
+.events {
+  padding: 100px 0 120px 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.events__content {
+  flex-basis: 580px;
+}
+
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0 0;
+}
+
+.events__info-section {
+  margin-top: 32px;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.event-info__icon {
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  margin: 40px 0 60px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.events__more {
+  color: #2f80ed;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.events__cover {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 780px;
+  max-width: 780px;
+  position: relative;
+}
+
+.events__image {
+  max-width: 100%;
+  display: block;
+}
+
+.person {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.person__image {
+  border-radius: 50%;
+  display: block;
+}
+
+.person__image_size_l {
+  width: 140px;
+}
+
+.person__image_size_m {
+  width: 100px;
+}
+
+.person__image_size_s {
+  width: 80px;
+}
+
+.person__caption {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+  color: #000000;
+}
+
+.person_name_feynman {
+  top: -30px;
+  left: 319px;
+}
+
+.person_name_burbidge {
+  top: 125px;
+  right: 96px;
+}
+
+.person_name_cannon {
+  bottom: 18px;
+  right: 216px;
+}
+
+.person_name_mitchell {
+  bottom: 142px;
+  left: 82px;
+}
+
+.person_name_tarter {
+  top: 79px;
+  left: 159px;
 }
